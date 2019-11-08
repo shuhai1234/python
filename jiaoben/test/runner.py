@@ -12,8 +12,8 @@ def new_report(testreport):
 
 
 if __name__ == "__main__":
-    test_dir = r'D:\zdh\test\case'
-    test_report = r'D:\zdh\test\report'
+    test_dir = r'D:\zdh\python\jiaoben\test\case'
+    test_report = r'D:\zdh\python\jiaoben\test\report'
     discover = unittest.defaultTestLoader.discover(test_dir, pattern='test_login.py')
     now = time.strftime("%Y-%m-%d_%H_%M_%S")
     # 1

@@ -1,47 +1,41 @@
-import os
-import getPath
+# coding:utf-8
+import os.path
+import time
 import logging
-import threading
-from datetime import datetime
-class Log:
-    def __init__(self):
-        global logPath, resultPath, proDir
-        proDir = getPath.get_basepath()
-        resultPath = os.path.join(proDir, "result")
-        # create result file if it doesn't exist
-        if not os.path.exists(resultPath):
-            os.mkdir(resultPath)
-        # defined test result file name by localtime
-        logPath = os.path.join(resultPath, str(datetime.now().strftime("%Y%m%d%H%M%S")))
-        # create test result file if it doesn't exist
-        if not os.path.exists(logPath):
-            os.mkdir(logPath)
-        # defined logger
-        self.logger = logging.getLogger()
-        # defined log level
-        self.logger.setLevel(logging.INFO)
 
-        # defined handler
-        handler = logging.FileHandler(os.path.join(logPath, "out.log"))
-        # defined formatter
+
+class Logger(object):
+
+    def __init__(self, logger):
+        """
+        指定保存日志的文件路径，日志级别，以及调用文件
+            将日志存入到指定的文件中
+        :param logger:
+        """
+        # 创建一个logger
+        self.logger = logging.getLogger(logger)
+        self.logger.setLevel(logging.DEBUG)
+
+        # 创建一个handler，用于写入日志文件
+        rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))
+        log_path = os.path.dirname(os.getcwd()) + '/Logs/'
+        log_name = log_path + rq + '.log'
+        fh = logging.FileHandler(log_name)
+        fh.setLevel(logging.INFO)
+
+        # 再创建一个handler，用于输出到控制台
+        ch = logging.StreamHandler()
+        ch.setLevel(logging.INFO)
+
+        # 定义handler的输出格式
         formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-        # defined formatter
-        handler.setFormatter(formatter)
-        # add handler
-        self.logger.addHandler(handler)
-class MyLog:
-    log = None
-    mutex = threading.Lock()
+        fh.setFormatter(formatter)
+        ch.setFormatter(formatter)
 
-    def __init__(self):
-        pass
+        # 给logger添加handler
+        self.logger.addHandler(fh)
+        self.logger.addHandler(ch)
 
-    @staticmethod
-    def get_log():
+    def getlog(self):
+        return self.logger
 
-        if MyLog.log is None:
-            MyLog.mutex.acquire()
-            MyLog.log = Log()
-            MyLog.mutex.release()
-
-        return MyLog.log

@@ -48,9 +48,9 @@ def send_mail(new_report):
 
 if __name__ == '__main__':
     # 存放测试用例的文件路径，例如下面是我的路径
-    test_path = "D:\\zdh\\test\\case\\"
+    test_path = "D:\\zdh\\python\\jiaoben\\test\\case\\"
     # 测试报告所在目录
-    test_report = 'D:\\zdh\\test\\report\\'
+    test_report = 'D:\\zdh\\python\\jiaoben\\test\\report\\'
     tests = test_suite(test_path)
     now = time.strftime("%Y-%m-%d %H-%M-%S")
     filename = test_report + now + '_result.html'
