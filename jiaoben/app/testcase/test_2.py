@@ -14,6 +14,7 @@ class test_appium(unittest.TestCase):
         driver = driver_configure.Driver_Config()
         cls.driver = driver.get_driver()
         cls.Gm = slide_handle.gesture_mainpulation
+
     def test_01(self):
         self.login_page = login_page.Login_page(self.driver)
         self.login_page.click_enter_button()

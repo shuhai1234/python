@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>UI自动化测试报告</title>
+    <title>ui自动化测试测试报告</title>
     <meta name="generator" content="HTMLTestRunner 0.8.2"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -221,10 +221,10 @@ function showOutput(id, name) {
 --></script>
 
 <div class='heading'>
-<h1>UI自动化测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2019-09-23 11:17:09</p>
+<h1>ui自动化测试测试报告</h1>
+<p class='attribute'><strong>Start Time:</strong> 2019-11-12 11:29:15</p>
 <p class='attribute'><strong>Duration:</strong> 0:00:00</p>
-<p class='attribute'><strong>Status:</strong> none</p>
+<p class='attribute'><strong>Status:</strong> Error 1</p>
 
 <p class='description'>用例执行情况</p>
 </div>
@@ -265,12 +265,61 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
+<tr class='errorClass'>
+    <td>unittest.loader._FailedTest</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
+</tr>
+
+<tr id='ft1.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_login</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        error</a>
+
+    <div id='div_ft1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.1: ImportError: Failed to import test module: test_login
+Traceback (most recent call last):
+  File "D:\python\lib\unittest\loader.py", line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "D:\python\lib\unittest\loader.py", line 369, in _get_module_from_name
+    __import__(name)
+  File "D:\zdh\python\jiaoben\test\case\test_login.py", line 8, in &lt;module&gt;
+    mylogger = Logger(logger='LoginCase').getlog()
+  File "D:\zdh\python\jiaoben\test\common\log.py", line 23, in __init__
+    fh = logging.FileHandler(log_name)
+  File "D:\python\lib\logging\__init__.py", line 1030, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "D:\python\lib\logging\__init__.py", line 1059, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\zdh\\python\\jiaoben\\Logs\\201911121129.log'
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
 <tr id='total_row'>
     <td>Total</td>
-    <td>0</td>
+    <td>1</td>
     <td class="text text-success">0</td>
     <td class="text text-danger">0</td>
-    <td class="text text-warning">0</td>
+    <td class="text text-warning">1</td>
     <td>&nbsp;</td>
 </tr>
 </table>
@@ -280,7 +329,7 @@ function showOutput(id, name) {
     <script type="text/javascript">
 var data = [
 	{
-		value: 0,
+		value: 1,
 		color: "#ebccd1",
 		label: "Error",
 		labelColor: 'white',

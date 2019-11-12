@@ -2,14 +2,7 @@ import unittest
 import time
 import HTMLTestRunner
 from common.fmail import *
-
-def new_report(testreport):
-    lists = os.listdir(testreport)
-    lists.sort(key=lambda fn: os.path.getmtime(testreport + "\\" + fn))
-    file_new = os.path.join(testreport, lists[-1])
-    # print(file_new)
-    return file_new
-
+from common.log import Logger
 
 if __name__ == "__main__":
     test_dir = r'D:\zdh\python\jiaoben\test\case'
@@ -23,8 +16,6 @@ if __name__ == "__main__":
                                            verbosity=2,
                                            title="ui自动化测试测试报告",
                                            description="用例执行情况")
-
-
     runner.run(discover)
     fp.close()
 

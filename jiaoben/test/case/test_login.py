@@ -8,8 +8,6 @@ from common.log import Logger
 mylogger = Logger(logger='LoginCase').getlog()
 
 
-
-
 class LoginCase(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -32,11 +30,6 @@ class LoginCase(unittest.TestCase):
         page.captcha.send_keys(123)
         mylogger.info("输入验证码")
         page.button.click()
-
-
-
-
-
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)

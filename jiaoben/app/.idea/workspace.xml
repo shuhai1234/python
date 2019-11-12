@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0da3ff0-7659-4638-92f3-ac65d6879f2b" name="Default Changelist" comment="" />
+    <list default="true" id="f0da3ff0-7659-4638-92f3-ac65d6879f2b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/driver_configure.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/driver_configure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/send_mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/send_mail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/globalparameter.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/globalparameter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/201909231131Report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/201909231149Report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2019_09_23_11_09_Report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2019_10_14_09_50_Report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2019_10_25_15_13_Report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/test_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/test_shuju.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_shuju.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/case/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/case/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/runner.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,13 +28,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="26" column="26" lean-forward="true" selection-end-line="30" />
+            <state relative-caret-position="-119">
+              <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
               <folding>
-                <element signature="e#15#30#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcase/test_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+              <folding>
+                <element signature="e#41#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcase/test_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/Base_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <folding>
+                <element signature="e#64#121#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/send_mail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1104">
+              <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,6 +103,9 @@
       <find>.</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -46,29 +115,30 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/testcase/test_login.py" />
         <option value="$PROJECT_DIR$/globalparameter.py" />
-        <option value="$PROJECT_DIR$/common/send_mail.py" />
         <option value="$PROJECT_DIR$/page/basePage.py" />
         <option value="$PROJECT_DIR$/page/loginpage.py" />
         <option value="$PROJECT_DIR$/common/Base_page.py" />
         <option value="$PROJECT_DIR$/common/gesture_mainpulation.py" />
-        <option value="$PROJECT_DIR$/testcase/test_2.py" />
-        <option value="$PROJECT_DIR$/run_test.py" />
-        <option value="$PROJECT_DIR$/config/globalparameter.py" />
         <option value="$PROJECT_DIR$/page/login_page.py" />
         <option value="$PROJECT_DIR$/page/shuju_page.py" />
         <option value="$PROJECT_DIR$/common/slide_handle.py" />
+        <option value="$PROJECT_DIR$/testcase/test_1.py" />
         <option value="$PROJECT_DIR$/common/driver_configure.py" />
         <option value="$PROJECT_DIR$/testcase/test_shuju.py" />
-        <option value="$PROJECT_DIR$/testcase/test_1.py" />
+        <option value="$PROJECT_DIR$/config/globalparameter.py" />
+        <option value="$PROJECT_DIR$/common/send_mail.py" />
+        <option value="$PROJECT_DIR$/run_test.py" />
+        <option value="$PROJECT_DIR$/testcase/test_2.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="216" />
-    <option name="y" value="90" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="88" />
+    <option name="y" value="129" />
     <option name="width" value="1746" />
     <option name="height" value="877" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -85,11 +155,6 @@
               <item name="app" type="b2602c69:ProjectViewProjectNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="app" type="b2602c69:ProjectViewProjectNode" />
@@ -114,8 +179,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../web" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -280,22 +346,22 @@
       <workItem from="1568623727182" duration="5861000" />
       <workItem from="1569203669129" duration="16961000" />
       <workItem from="1570870885910" duration="1573000" />
+      <workItem from="1573526360872" duration="5307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61023000" />
+    <option name="totallyTimeSpent" value="66330000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="88" y="129" width="1746" height="877" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13646056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17200474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31277058" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22177419" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -340,7 +406,7 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/app$run_test.coverage" NAME="run_test Coverage Results" MODIFIED="1571015690083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/app$run_test.coverage" NAME="run_test Coverage Results" MODIFIED="1573529277879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/app$runAll.coverage" NAME="runAll Coverage Results" MODIFIED="1569208609094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../api" />
     <SUITE FILE_PATH="coverage/app$slide_handle.coverage" NAME="slide_handle Coverage Results" MODIFIED="1569207375825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/app$test_login.coverage" NAME="test_login Coverage Results" MODIFIED="1561970908537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
@@ -411,29 +477,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/send_mail.py">
+    <entry file="file://$PROJECT_DIR$/page/login_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/Base_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+        <state relative-caret-position="432">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding>
-            <element signature="e#64#121#0" expanded="true" />
+            <element signature="e#16#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/driver_configure.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="96">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="10" />
           <folding>
-            <element signature="e#15#43#0" expanded="true" />
+            <element signature="e#15#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/globalparameter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="14" column="11" selection-start-line="14" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="e#16#44#1" />
+            <element signature="e#45#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/shuju_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -448,47 +528,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/globalparameter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/shuju_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="59" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/test_shuju.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2064">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="1488">
+          <caret line="86" column="74" lean-forward="true" selection-start-line="86" selection-start-column="74" selection-end-line="86" selection-end-column="74" />
           <folding>
             <element signature="e#15#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/login_page.py">
+    <entry file="file://$PROJECT_DIR$/common/send_mail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="1104">
+          <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
           <folding>
-            <element signature="e#16#44#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/test_2.py">
+    <entry file="file://$PROJECT_DIR$/run_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="-119">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -497,7 +560,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase/test_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
+        <state relative-caret-position="121">
           <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
           <folding>
             <element signature="e#41#56#0" expanded="true" />
@@ -505,12 +568,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run_test.py">
+    <entry file="file://$PROJECT_DIR$/testcase/test_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="26" lean-forward="true" selection-end-line="30" />
+        <state relative-caret-position="168">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="e#15#30#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/Base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#64#121#0" expanded="true" />
           </folding>
         </state>
       </provider>
