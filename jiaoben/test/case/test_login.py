@@ -5,11 +5,6 @@ from selenium import webdriver
 from page.login_page import LoginIndexPage
 from common.log import Logger
 
-mylogger = Logger(logger='LoginCase').getlog()
-
-
-
-
 class LoginCase(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -20,17 +15,12 @@ class LoginCase(unittest.TestCase):
     @classmethod
     def tearDownClass(cls):
         cls.dr.quit()
-
     def test_login(self):
         page = LoginIndexPage(self.dr)
         page.open(self.base_url)
-        mylogger.info("进入登录页面")
         page.username.send_keys("admin")
-        mylogger.info("输入用户名")
         page.password.send_keys("admin123")
-        mylogger.info("输入密码")
         page.captcha.send_keys(123)
-        mylogger.info("输入验证码")
         page.button.click()
 
 
