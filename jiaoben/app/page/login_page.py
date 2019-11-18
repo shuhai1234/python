@@ -14,7 +14,7 @@ class Login_page(Base_page.Base_page):
     enter_button = (by.ID, "com.ansiyida.cgjl:id/btn_login")
 
     # 输入手机号码
-    def input_user(self,username):
+    def input_user(self, username):
         self.send_keys(username, *self.user)
     # 输入密码
     def input_password(self,pwd):

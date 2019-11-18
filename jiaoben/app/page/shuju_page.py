@@ -16,23 +16,7 @@ class Shuju_page(Base_page.Base_page):
     Verificationcode = PageElement(xpath="//*[@text='验证码']", describe="验证码")
 
 
-    # 输入密码
-    def input_password(self, pwd):
-        self.send_keys(pwd, self.password)
-    # 登录按钮小程序
-    def click_xiaochenxu_button(self):
-        self.find_element(self.xiaochenxu).click()
-    # 点击更多按钮
-    def click_more_button(self):
-        self.self.find_element(self.more).click()
 
-     # 点击分析按钮
-    def click_analysis_button(self):
-        self.self.find_element(self.analysis).click()
-
-    # 点击查看更多按钮
-    def click_seemore_button(self):
-        self.self.find_element(self.seemore).click()
 
 
 
