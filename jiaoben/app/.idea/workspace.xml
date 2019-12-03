@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0da3ff0-7659-4638-92f3-ac65d6879f2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/loger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/driver_configure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/case/teatdata.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/test_data/data_read.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/Base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/driver_configure.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/shuju_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/shuju_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/test_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/test_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/test_shuju.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_shuju.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/case/test_help.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/case/test_help.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test/case/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/case/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/page/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/page/base_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/runner.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

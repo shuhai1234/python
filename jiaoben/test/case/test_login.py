@@ -9,6 +9,7 @@ import time
 
 #mylogger = Logger(logger='LoginCase').getlog()
 
+
 class LoginCase(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -25,6 +26,7 @@ class LoginCase(unittest.TestCase):
     @classmethod
     def tearDownClass(cls):
         cls.dr.quit()
+
     #参数化
     @parameterized.expand([
         ("case01","admin","admin123","123")
@@ -42,6 +44,13 @@ class LoginCase(unittest.TestCase):
         #mylogger.info("输入密码")
         page.captcha.send_keys(captcha)
         #mylogger.info("输入验证码")
+
+    def test_login(self):
+        page = LoginIndexPage(self.dr)
+        page.open(self.base_url)
+        page.username.send_keys("admin")
+        page.password.send_keys("admin123")
+        page.captcha.send_keys(123)
         page.button.click()
         time.sleep(3)
        # title = LoginIndexPage.title

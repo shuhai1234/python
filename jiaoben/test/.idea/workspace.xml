@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3922516-aac3-43da-ae0b-8888e8cd772e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../app/common/loger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/page/driver_configure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/testcase/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case/teatdata.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_data/data_read.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/.idea/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/.idea/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/common/Base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../app/page/Base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/common/driver_configure.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/page/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../app/page/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/page/shuju_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../app/page/shuju_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../app/run_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/testcase/test_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../app/testcase/test_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/testcase/test_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/testcase/test_shuju.py" beforeDir="false" afterPath="$PROJECT_DIR$/../app/testcase/test_shuju.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/test_help.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_help.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/base_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/runner.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,22 +16,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/case/test_key.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            <state relative-caret-position="551">
+              <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/case/test_login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-              <folding>
-                <element signature="e#15#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,7 +106,6 @@
         <option value="$PROJECT_DIR$/common/log.py" />
         <option value="$PROJECT_DIR$/test_data/teatdata.txt" />
         <option value="$PROJECT_DIR$/test_data/data_read.py" />
-        <option value="$PROJECT_DIR$/case/test_login.py" />
         <option value="$PROJECT_DIR$/case/test_help.py" />
         <option value="$PROJECT_DIR$/page/base_page.py" />
         <option value="$PROJECT_DIR$/page/111.py" />
@@ -149,10 +114,11 @@
         <option value="$PROJECT_DIR$/common/fmail.py" />
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/case/test_key.py" />
+        <option value="$PROJECT_DIR$/case/test_login.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="177" />
     <option name="y" value="207" />
     <option name="width" value="1746" />
@@ -382,15 +348,15 @@
       <workItem from="1573178383903" duration="10223000" />
       <workItem from="1574076269402" duration="9605000" />
       <workItem from="1574408544590" duration="17829000" />
-      <workItem from="1575255694069" duration="8151000" />
+      <workItem from="1575255694069" duration="8783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298636000" />
+    <option name="totallyTimeSpent" value="299268000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1924307" />
@@ -730,16 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-          <folding>
-            <element signature="e#15#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Logs/201911121350.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -760,10 +716,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="e#15#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/case/test_key.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        <state relative-caret-position="551">
+          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
