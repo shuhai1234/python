@@ -1,9 +1,8 @@
 # coding:utf-8
-from appium import webdriver
-from appium.webdriver.common.touch_action import TouchAction
 import time
 from common.slide_handle import gesture_mainpulation
-from common.driver_configure import driver
+
+
 def test_weixin_login(driver):
     time.sleep(10)
 

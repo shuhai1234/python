@@ -11,6 +11,10 @@ class BasePage():
 
     def by_xpath(self, elem):
         return self.dr.find_element_by_xpath(elem)
+
+    def by_name(self,elem):
+        return self.dr.find_element_by_name(elem)
+
 # 定位时间控件
     def shijia(self):
          js = '$(\'input[id=startEffectiveDate]\').removeAttr(\'readonly\')'

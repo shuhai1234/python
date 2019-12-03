@@ -18,7 +18,7 @@ if __name__ == "__main__":
     runner.run(discover)
     fp.close()
 
-    #②搜索最新生成的文件
+    # 搜索最新生成的文件
     new_report = new_report(test_report)
     #③发送邮件
     send_mail(new_report, filename1, now)

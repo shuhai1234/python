@@ -11,6 +11,16 @@ class Base_page:
     def __init__(self, driver):
         self.driver = driver
 
+    # 定义定位属性
+    def by_id(self, elem):
+         return self.dr.find_element_by_id(elem)
+
+    def by_xpath(self, elem):
+         return self.dr.find_element_by_xpath(elem)
+
+    def by_name(self, elem):
+        return self.dr.find_element_by_name(elem)
+
     def find_element(self, *loc):
         ''' 重写find_element方法，显式等待 '''
         try:
@@ -25,4 +35,3 @@ class Base_page:
             self.find_element(*loc).send_keys(value)
         except AttributeError as e:
             raise e
-

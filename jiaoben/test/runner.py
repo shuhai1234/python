@@ -4,6 +4,7 @@ import HTMLTestRunner
 from common.fmail import *
 from common.log import Logger
 
+
 if __name__ == "__main__":
     test_dir = r'D:\zdh\python\jiaoben\test\case'
     test_report = r'D:\zdh\python\jiaoben\test\report'
@@ -23,10 +24,5 @@ if __name__ == "__main__":
     new_report = new_report(test_report)
     #③发送邮件
     send_mail(new_report, filename1, now)
-
-    # 展示测试报告html
-    #driver = webdriver.chrome()
-    #driver.get("D:/zdh/test/report/" + now +"_result.html")
-
     stoptime = time.strftime('%H:%M:%S')
     print("结束时间为：%s" %stoptime)
