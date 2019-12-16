@@ -1,0 +1,29 @@
+<testsuite errors="1" failures="0" name="nose2-junit" skipped="0" tests="1" time="13.978">
+  <testcase classname="test_login.LoginCase" name="test_login_success" time="13.973788">
+    <error message="test failure">Traceback (most recent call last):
+  File "E:\doc\book\python_se_book\src\framework\page\base_page.py", line 57, in screenshot_on_exception
+    WebDriverWait(self.driver, DEFAULT_SECONDS).until(EC.visibility_of_element_located(locator))
+  File "D:\dev\python3\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\doc\book\python_se_book\src\framework\test_login.py", line 23, in test_login_success
+    dashboard_page = login_page.login(username, password)
+  File "E:\doc\book\python_se_book\src\framework\page\login_page.py", line 18, in login
+    self.username_text_field.send_keys(username)
+  File "E:\doc\book\python_se_book\src\framework\page\login_page.py", line 7, in username_text_field
+    return self.by_id('user_loginxxxxx')
+  File "E:\doc\book\python_se_book\src\framework\page\base_page.py", line 40, in by_id
+    self.screenshot_on_exception(locator)
+  File "E:\doc\book\python_se_book\src\framework\page\base_page.py", line 62, in screenshot_on_exception
+    raise TimeoutException(msg)
+selenium.common.exceptions.TimeoutException: Message: Time out when locate element using id: user_loginxxxxx
+
+</error>
+    <system-err />
+  </testcase>
+</testsuite>

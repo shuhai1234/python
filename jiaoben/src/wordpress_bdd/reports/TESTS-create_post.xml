@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite errors="0" failures="0" name="create_post.CreatePost" skipped="1" tests="1" time="0.0"><testcase classname="create_post.CreatePost" name="Success" status="skipped" time="0.0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Success
+    Given go to login page ... skipped in 0.000s
+    When login with admin admin ... skipped in 0.000s
+    And go to create post page ... skipped in 0.000s
+    And create a post ... skipped in 0.000s
+    Then verify post title ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

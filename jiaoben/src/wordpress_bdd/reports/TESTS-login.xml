@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite errors="0" failures="0" name="login.Login" skipped="0" tests="1" time="3.378"><testcase classname="login.Login" name="Success" status="passed" time="3.378"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @login
+  Scenario: Success
+    Given go to login page ... passed in 1.101s
+    When login with admin admin ... passed in 2.218s
+    Then redirect to dashboard page ... passed in 0.022s
+    And display hello admin ... passed in 0.037s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
