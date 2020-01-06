@@ -1,6 +1,6 @@
 # coding=utf-8
 import unittest
-from BeautifulReport import BeautifulReport
+from HTMLTestRunner import HTMLTestRunner
 import os
 from tomorrow import threads
 
@@ -17,7 +17,7 @@ if not os.path.exists(reportpath): os.mkdir(reportpath)
 
 def add_case(case_path=casepath, rule="test*.py"):
     '''加载所有的测试用例'''
-    discover = unittest.defaultTestLoader.discover(case_path,
+    discover = unittest.HTMLTestRunner.discover(case_path,
                                                   pattern=rule,
                                                   top_level_dir=None)
     return discover

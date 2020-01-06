@@ -1,34 +1,31 @@
 from selenium import webdriver
 from time import sleep
 import unittest
-from page.login_page import LoginIndexPage
+#from page.login_page import LoginIndexPage
 from page.key_page import KeyIndexPage
-from case.test_login import LoginCase
+from case.login import TestLogin
+
 
 
 class AssistantCase(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
+        cls.driver = webdriver.Chrome()
+        cls.driver.maximize_window()
+        cls.base_url = "http://admin.58wld.com/wldadmin.php/login"
+        cls.driver.implicitly_wait(3)
         print("开始操作")
-        #cls.dr = webdriver.Chrome()
-        #cls.dr.maximize_window()
-        #cls.base_url = "http://admin.58wld.com/wldadmin.php/login"
-        #cls.dr.implicitly_wait(1)
-        #cls.LoginCase.test_login()
 
-    '''def test_login(self):
-        page = LoginIndexPage(self.dr)
-        page.open(self.base_url)
-        sleep(2)
-        page.username.send_keys("admin")
-        page.password.send_keys("admin123")
-        page.captcha.send_keys(123)
-        page.button.click()'''
+    @classmethod
+    def tearDownClass(cls):
+        print("退出")
 
     def test_key(self):
+        driver=self.driver
+        TestLogin().login(driver)
+        page = KeyIndexPage(driver)
+        page.open(self.base_url)
         # 进入到关键词列表
-        LoginCase.test_login()
-        page = KeyIndexPage(self.dr)
         sleep(3)
         page.Mistress.click()
         sleep(2)
@@ -47,16 +44,12 @@ class AssistantCase(unittest.TestCase):
         page.Determine.click()
         sleep(2)
 
-    @classmethod
-    def tearDownClass(cls):
-        print("退出")
+
 
 
 if __name__ == '__main__':
     unittest.main()
     ''''# 构造测试集
-    suite = unittest.TestSuite()
-    suite.addTest(AssistantCase("test_login"))
     suite.addTest(AssistantCase("test_Scenes"))
     suite.addTest(AssistantCase("test_help"))
     suite.addTest(AssistantCase("test_WakeCase"))
