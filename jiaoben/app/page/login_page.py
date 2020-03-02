@@ -1,9 +1,9 @@
 '''页面;登录页面'''
 
-from page import BasePage
+from page.Base_page import Base_page
 from appium.webdriver.common import mobileby
 
-class Login_page(BasePage.Base_page):
+class Login_page(Base_page.BasePage):
     by = mobileby.MobileBy()
     # 手机输入框
     user = (by.ID, "com.ansiyida.cgjl:id/editText_phone")

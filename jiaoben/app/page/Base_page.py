@@ -1,5 +1,5 @@
 # coding:utf-8
-__author__ = 'Helen'
+
 '''
 description:UI页面公共类
 '''
